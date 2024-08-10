@@ -86,3 +86,38 @@
    border-radius: 39px;
 
 }
+
+/* header Section ralted styles */
+
+.Container-1{
+max-width: 1440px;
+margin: 0 auto;
+   
+}
+
+.brand-title{
+      font-size: 4.8rem;
+      font-weight: 900;
+}
+
+.brand-description{
+  
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+
+
+
+
+/* small device reated Styles */
+
+@media screen and (max-width:576px) {
+  
+}
+
+/* medium device reated styles */
+
+@media  screen and (min-width:576px) and (max-width:992px) {
+  
+}
