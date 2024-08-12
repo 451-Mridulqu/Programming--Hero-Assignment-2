@@ -31,22 +31,37 @@
 
 /* share Styles */
 
+body{
+    margin: 0;
+}
+
 .display-flex{ display: flex;
 
 }
 
 
-  
 
+
+
+.bg-color-main{
+
+   background-color: black;
+} 
+   
+.alint-center{
+  text-align: center;
+  max-width: 231px;
+
+}
+.bg-color{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);}
 
 
 .title-color{
    color: rgb(230, 83, 60);
 }
 
-.bg-color{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-  }
+
 
 
   #title-color-2{
@@ -146,13 +161,117 @@ justify-content: space-between;
 .btn-Primary-01{
   font-size: 1.25rem;
   font-weight: 600;
-  border: .8px solid white;
+  border: .1px solid white;
   padding: 16px 40px 16px 40px;
   border-radius: 42px;
-  color: aliceblue;
+  background-color: black;
 }
 
 
+/* blur box realted styles */ 
+
+.Blur-Container-1{
+
+   width: 193px;
+   height: 98px;
+   text-align: center;
+   background-color: antiquewhite;
+   border-radius: 12px;
+   margin-bottom: -125px;
+
+
+}
+
+
+.Blur-Container-2{
+
+  width: 206px;
+  height: 96px;
+  background-color: blue;
+  border-radius: 12px;
+  
+}
+
+
+/* Main-Sectiion-01 realted Styles */
+
+   .main-01-img-Container{
+    max-width: 1044px;
+    margin: 0 auto;
+
+
+   }
+
+   .main-01-title{
+           font-size: 3rem;
+           font-weight: 900;
+           color: white;
+           margin-top: 100px;
+           margin-bottom: 14px;
+
+
+   }
+
+
+   .main-01-description{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+
+
+   }
+
+   .Exxersicer{
+     border-radius: 50%;
+     
+   }
+
+   .main-01-img-Container{
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+   }
+
+   .main-01-Text-container{
+    text-align: center;
+
+
+   }
+
+
+   .main-01-Text-container{
+    margin-top: 100px;
+
+    margin-bottom: 56px;
+   }
+
+   /* Main-section-1-Imgae realted Styles */
+
+   .image-title{
+       font-size: 1.2rem;
+       font-weight: 600;
+       color: white;
+       margin-top: 26px;
+       margin-bottom: 6px;
+
+
+   }
+
+   .image-description{
+
+       font-size: 0.8rem;
+       font-weight: 400;
+       color: rgba(255, 255, 255, 0.5);
+
+
+   }
+
+
+   /* Main-Section-02 Realted Styles */
+
+   .main-Section-02{
+
+    
+   }
 
 
 
