@@ -45,7 +45,7 @@ body{
 
 .bg-color-main{
 
-   background-color: black;
+   background-color: none;
 } 
    
 .alint-center{
@@ -54,7 +54,7 @@ body{
 
 }
 .bg-color{
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);}
+  background: linear-gradient(180.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0) 100%);}
 
 
 .title-color{
@@ -366,13 +366,23 @@ justify-content: space-between;
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
 
-
-
    }
 
-   .imge-02{
-    width: 50%;
-    height: 50%;
+   
+
+   
+     
+   
+   
+   .main-Section-02 img{
+    width: 366px;
+    height: 312px;
+    object-fit: cover;
+    object-position: 80% center ; 
+  
+    
+    
+    
    }
 
    .Section-title-02{
@@ -383,6 +393,48 @@ justify-content: space-between;
 
    }
 
+   /* main-Section-04 realted styles */
+
+   .BMI-Calculator-Container{
+     max-width: 1440px;
+     height: 487px;
+   }
+
+   table{
+      width: 310px;
+      height: 216px;
+   }
+   th{
+    text-align: left;
+   }
+
+   table, tr, td, th{
+     border: 1px solid black;
+     border-collapse: collapse;
+   }
+   table, td{
+      text-align: center;
+   }
+
+   .BMI-Calculator-Container{
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+   }
+
+   .from-Container{
+     width: 577px;
+     height: 386px;
+   }
+
+ form{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr) ;
+ }
+
+ .main-Section-04 {
+ background: rgb(34, 34, 34);
+ }
 
 
 /* small device realted Styles */
