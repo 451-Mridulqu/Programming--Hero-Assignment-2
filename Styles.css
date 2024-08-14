@@ -593,7 +593,48 @@ justify-content: space-between;
 
  }
 
+
+ /* Footer Realted Styles */
  
+ /* Footer-section-01 Realted Styles */
+
+ .footer-section{
+  
+  width: auto;
+  height: 489px;
+  background-color: rgba(255, 255, 255, 0.1);
+ }
+
+ .footer-section-01{
+  display: flex;
+
+
+ }
+ .footer-section-01-title-container-1{
+  border: 1px solid moccasin;
+  width: 433px;
+  height: 176px;
+ }
+
+ 
+ .footer-section-01-title-container-1 h1{
+  font-size: 4.4rem;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 0px;
+
+
+ }
+
+ .footer-section-01-title-container-1 p{
+
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  
+ }
  
 
 
