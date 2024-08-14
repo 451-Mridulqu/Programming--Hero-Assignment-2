@@ -361,34 +361,65 @@ justify-content: space-between;
     margin: 0 auto;
     margin-top: 100px;
 
-  width: 1060px;
-    max-height: 371px;
+   width: 1060px;
+    height: 371px;
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
 
    }
 
+   .main-Section-02 img{
+       object-fit: none;
+       object-position: 68% 30%;
+       
+
+       border-radius: 30px;
+        width: 366px;
+
+        height: 312px;
+        margin-top: 30px;
+        margin-right: 32px;
+        
+
+   }
+   .main-02-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-top: 41px;
+    margin-bottom: 14px;
+
+     
+   }
+
+   .main-02-description{
+    margin-bottom: 34px;
+   }
+
+   .btn-Primary-02{
+       width: 224px;
+       height: 54px;
+   }
    
 
    
      
    
    
-   .main-Section-02 img{
-    width: 366px;
-    height: 312px;
-    object-fit: cover;
-    object-position: 80% center ; 
+   
+     
   
     
     
     
-   }
+   
 
    .Section-title-02{
     width: 443px;
     height: 116px;
+     margin-left: 54px;
      
+     margin-bottom: 40px;
 
 
    }
