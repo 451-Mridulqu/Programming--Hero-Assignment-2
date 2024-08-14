@@ -31,6 +31,11 @@
 
 /* share Styles */
 
+
+.display-none{
+    display:none;
+}
+
 body{
     margin: 0;
 }
@@ -54,7 +59,7 @@ body{
 
 }
 .bg-color{
-  background: linear-gradient(180.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0) 100%);}
+  background-color: black;}
 
 
 .title-color{
@@ -179,6 +184,7 @@ justify-content: space-between;
   border: .1px solid white;
   padding: 16px 40px 16px 40px;
   border-radius: 42px;
+  color: white;
   background-color: black;
 }
 
@@ -425,6 +431,36 @@ justify-content: space-between;
    }
 
    /* main-Section-04 realted styles */
+   
+   .Section-04-text-containter{
+         display: flex;
+         flex-direction: column;
+        margin-left: 384px;
+        margin-right:384px;
+        margin-bottom: 78px;
+        margin-top: 88px;
+        
+        border: 1px solid red;
+   }
+   
+   .Section-04-text-containter p{
+
+    font-size:0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+      
+   }
+  
+   .Section-04-text-containter h4{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 14px;
+
+      
+   }
+
+
 
    .BMI-Calculator-Container{
      max-width: 1440px;
@@ -440,11 +476,36 @@ justify-content: space-between;
    }
 
    table, tr, td, th{
-     border: 1px solid black;
+    border: 1px solid rgba(255, 255, 255, 0.1);;
      border-collapse: collapse;
    }
-   table, td{
-      text-align: center;
+   table td, th {
+    padding-left: 18px;
+   }
+   caption{
+        font-size: 1.75rem;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+        margin-top: 52px;
+        margin-bottom: 52px;
+        
+   }
+   .from-Container-title{
+       width: 577px;
+       height: 96px;
+       margin-bottom: 34px;
+   }
+
+   .from-Container-title h4{
+       font-size: 1.75rem;
+       font-weight: 900;
+       color: white;
+       margin-bottom: 14px;
+   }
+   .from-Container-title p{
+       font-size: .8rem;
+       font-weight: 400;
+       color: rgba(255, 255, 255, 0.5);
    }
 
    .BMI-Calculator-Container{
@@ -467,6 +528,17 @@ justify-content: space-between;
  background: rgb(34, 34, 34);
  }
 
+ table  th{
+     font-size: 1rem;
+     font-weight: 600;
+     color: white;
+ }
+ table td{
+     font-size: .8rem;
+     font-weight: 400;
+     color: rgba(255, 255, 255, 0.5);
+ }
+
 
 /* small device realted Styles */
 
@@ -481,11 +553,39 @@ justify-content: space-between;
     
       
     
-    .Container-1 {
+    .Container-1  {
          flex-direction: column;
          margin-left: 20px;
          max-width: 352px;
     }
+
+    .main-01-img-Container{
+       display:flex;
+       flex-direction: column;
+      
+    }
+    
+    
+
+    .main-Section-02{
+        width: 353px;
+        height: 531px;
+    }
+      .Section-title-02{
+         width: 287px;
+         height: 76px;
+      }
+
+      .btn-Primary-02{
+         width: 287px;
+         height: 54px;
+      }
+       .Section-title-02 img{
+          width: 100%
+          
+          
+          
+       }
 
     .brand-title{
        font-size: 2.5rem;
