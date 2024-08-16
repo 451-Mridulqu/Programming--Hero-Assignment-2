@@ -379,7 +379,7 @@ top: 540px;
     margin-top: 100px;
 
    max-width:  1060px;
-  max-height: 371px; 
+  max-height: 100%; 
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
 
@@ -823,8 +823,7 @@ top: 540px;
          
          
     }
-    .brand-title-container{
-      margin-left: 60px;
+    
     }
 
     .Container-1{
@@ -832,16 +831,14 @@ top: 540px;
     
       
 
-      .navbar{
-         
-      }
+      
     }
     .pk{
       width: 353px;
       height: 588px;
       
 
-      margin-left: 60px;
+      
        
     }
     .navbar{
@@ -850,6 +847,7 @@ top: 540px;
     .main-01-img-Container{
        display:flex;
        flex-direction: column;
+       margin: 0px;
       
     }
 
@@ -982,8 +980,15 @@ left: 33px;
 top: 326px;
   }
 
-  .main-Section-02{
     
+  .main-01-title{
+    font-size: 2rem;
+
+  }
+  .main-01-description{
+       font-size: 0.8rem;
+       width: 316px;
+       height: 72px;
   }
 
   
@@ -1002,7 +1007,7 @@ top: 326px;
       margin: 0px;
 
       max-width: 353px;
-      max-height: 531px;
+      height: 600px;
     }
 
 
@@ -1012,22 +1017,49 @@ top: 326px;
 
     .main-01-img-Container{
         align-items: center;
-        margin-left: 30px;
+      
     }
     .main-01-Text-container{
-       margin-left: 50px;
+       
     }
     .navbar{
-       margin-left: 80px;
+       margin-left: 20px
     }
 
     .brand-title-container{
     max-width: 352px;
     max-height: 335px;
-    margin-left: 45px
+    
     }
+    .main-Section-02{
+
+    /* Frame 27 */
+    margin-left: 20px;
+    margin-right: 20px;
+
+width: 353px;
+height: 620px
+
+ }
+    .main-Section-02 img{
 
 
+       width: 287px;
+      height: 170px;
+      object-fit: cover;
+      object-position: 70% 30%;
+      
+position: relative;
+
+left: 0px;
+top: 5px;
+      
+
+
+  }
+
+  .Section-title-02{
+    margin-left: 30px;
 
   }
   
