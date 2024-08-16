@@ -378,8 +378,8 @@ top: 540px;
     margin: 0 auto;
     margin-top: 100px;
 
-   width: 1060px;
-    height: 371px;
+   max-width:  1060px;
+  max-height: 371px; 
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
 
@@ -392,10 +392,11 @@ top: 540px;
 
        border-radius: 30px;
         width: 366px;
-
+     
         height: 312px;
         margin-top: 30px;
         margin-right: 32px; 
+        margin: 30px;
         
 
    }
@@ -477,8 +478,8 @@ top: 540px;
 
 
    .BMI-Calculator-Container{
-     max-width: 1440px;
-     height: 487px;
+     width: auto;
+     height: 450px;
    }
 
    table{
@@ -537,7 +538,7 @@ top: 540px;
 
  form{ 
   margin-top: 60px;
-       border: 1px solid red;
+      
        display: flex;
        flex-direction: row;
        gap: 7px;
@@ -577,6 +578,7 @@ top: 540px;
    height: 16px;
    border-radius: 5px;
    border: none;
+   
 
    background: rgba(255, 255, 255, 0.1);
    
@@ -610,8 +612,8 @@ top: 540px;
     margin: 0 auto;
      margin-bottom: 88px;
 
-    width: 1060px;
-    height: 604px;
+    max-width: 1060px;
+    max-height: 604px; */
     border-radius: 18px;
     background-color: rgba(255, 255, 255, 0.1);
   }
@@ -621,7 +623,7 @@ top: 540px;
      
  border-radius: 12px;
  width: 326px; ;
-  height: 271px;
+  height: 271px; 
   
     
  }
@@ -673,8 +675,8 @@ top: 540px;
 
  .footer-section{
   
-  width: auto;
-  height: 489px;
+  /*max-width: auto;
+  max-height: 489px; */
   background-color: rgba(255, 255, 255, 0.1);
  }
 
@@ -795,7 +797,8 @@ top: 540px;
    text-align: center;
    color: rgba(255, 255, 255, 0.5);
    margin-top: 25px;
-   margin-bottom: 30px;
+   padding-bottom: 30px;
+   margin-bottom: 0px;
 }
 
  
@@ -812,25 +815,87 @@ top: 540px;
     } */
     
     
-      
+   /* header realted Styles */   
     
     .Container-1, .main-Section-04  {
          flex-direction: column;
          margin-left: 20px;
-         max-width: 352px;
+         
+         
+    }
+    .brand-title-container{
+      margin-left: 60px;
     }
 
+    .Container-1{
+      
+    
+      
+
+      .navbar{
+         
+      }
+    }
+    .pk{
+      width: 353px;
+      height: 588px;
+      
+
+      margin-left: 60px;
+       
+    }
+    .navbar{
+            
+    }
     .main-01-img-Container{
        display:flex;
        flex-direction: column;
       
     }
+
+    .Blur-Container-1 {
+       
     
+     position: absolute;
+     width: 160px;
+     height: 100px;
+     left: 270px;
+     top: 500px;
+    }
+
+    .Blur-Container-2{
+      
+     position: absolute;
+     width: 155.74px;
+     height: 72.58px;
+     left: 50px;
+     top: 750px;
+    }
+
+    .btn-Primary{
+       width: 169px;
+       height: 54px;
+       font-size: 1.2rem;
+    }
     
+    .btn-Primary-01{
+      width: 169px;
+       height: 54px;
+       font-size: 1.2rem;
+       padding: 0;
+    }
+    .btn-head{
+      display: flex;
+      gap: 20px;
+    }
 
     .main-Section-02{
-        width: 353px;
-        height: 531px;
+      
+       
+      width: 1060px;
+      height: 371px;
+
+        
     }
       .Section-title-02{
          width: 287px;
@@ -848,34 +913,109 @@ top: 540px;
           
        }
 
+
+
     .brand-title{
        font-size: 2.5rem;
+       font-weight: 600;
+       width: 285px;
+       height: 129px;
     }
 
-    .btn-head {
-        display: inline;
-    }
+   .brand-description{
+     width: 274px;
+     height: 96px;
+   }
 
 
-    .brand-description {
-       font-size: 1rem;
-    }
+   .display-none-2{
+      display: none;
+   }
 
     .nav-links{
          display: none;
     }
 
-    .brand{
-        margin-left: 20px;
+    .brand-title{
+       
+      margin-bottom: 0px;
     }
 
-    .btn-head{
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-       gap: 10px;
-       te
+    .blur-title-1{
+       font-size: 1.7rem;
     }
-}
+    .blur-title-Description-1{
+       font-size: 0.57rem ;
+    }
+    .blur-title-2{
+        font-size: 1.2rem;
+    }
+
+    .blur-title-Description-2{
+       
+      font-size: 0.7rem;
+    }
+
+    /* section-02 */
+    .main-Section-02, .main-Section-03, .main-Section-04, 
+    .BMI-Calculator-Container, .main-Section-05-image-container, .footer-section-01, .Section-04-text-containter {
+
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .from-Container{
+      wi
+    }
+  .imge-02{
+    
+      
+    position: relative;
+
+   width: 287px;
+height: 170px;
+left: 33px;
+top: 326px;
+  }
+
+  .main-Section-02{
+    
+  }
+
+  
+    
+    .main-Section-04{
+
+      width: 394;
+      height: 772px;
+    }
+
+    .main-Section-05{
+        max-width: 353px;
+        max-height: 1188px;
+    }
+    .main-Section-02{
+      margin: 0px;
+
+      max-width: 353px;
+      max-height: 531px;
+    }
+
+
+    .Section-04-text-containter{
+      margin: 0px;
+    } 
+
+
+
+
+  }
+  
+     
+  
+    
+
 
 /* medium device realted styles */
 
