@@ -652,7 +652,7 @@ top: 540px;
      text-align: center;
      
   }
- .text-Container-5 h1{
+ .text-Container-5 h4{
   margin-top: 2px;
   font-size: 3rem;
   font-weight: 900;
@@ -957,7 +957,7 @@ top: 540px;
 
     /* section-02 */
     .main-Section-02, .main-Section-03, .main-Section-04, 
-    .BMI-Calculator-Container, .main-Section-05-image-container, .footer-section-01, .Section-04-text-containter {
+    .BMI-Calculator-Container, .main-Section-05-image-container,  .Section-04-text-containter {
 
       display: flex;
       flex-direction: column;
@@ -1153,12 +1153,56 @@ form{
     width: 394px;
     height: 720px;
 }
+.text-Container-5{
+   width: 309px;
+   height: 124px;
+}
+.text-Container-5 h4{
+   font-size: 1rem;
+}
+.main-Section-05{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer-section-01-title-container-1{
+
+   width: 317px;
+   height: 200px;
+   text-align: left;
+}
+.footer-section{
+   width: 396px;
+   height: 980px;
+}
+.footer-section-01{
+  
+   
+   
+  position: relative;
+   width: 353px;
+  height: 748px;
+  left: 20px;
+  top: 44px;
+
+  display: flex;
+  flex-direction: column;
+justify-content: flex-start;
+  align-items: flex-start;
+  gap: 102;
+padding: 0px;
 
 
+}
 
+.border{
+   width: 354px;
+   height: 0px;
+}
 
-
-
+.footer-section-01-title-container-1{
+   text-align: left;
+}
 }
 
 
