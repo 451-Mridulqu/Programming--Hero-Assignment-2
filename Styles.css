@@ -447,8 +447,8 @@ top: 540px;
 
    
    .Section-04-text-containter{
-         display: flex;
-         flex-direction: column;
+         
+         
         margin-left: 384px;
         margin-right:384px;
         margin-bottom: 78px;
@@ -876,6 +876,8 @@ top: 540px;
        width: 169px;
        height: 54px;
        font-size: 1.2rem;
+       padding: 0;
+       
     }
     
     .btn-Primary-01{
@@ -892,8 +894,8 @@ top: 540px;
     .main-Section-02{
       
        
-      width: 1060px;
-      height: 371px;
+      width: 100%;
+      height: 100%;
 
         
     }
@@ -905,6 +907,7 @@ top: 540px;
       .btn-Primary-02{
          width: 287px;
          height: 54px;
+        
       }
        .Section-title-02 img{
           width: 100%
@@ -987,8 +990,8 @@ top: 326px;
     
     .main-Section-04{
 
-      width: 394;
-      height: 772px;
+      width: 394px;
+      height: 774px;
     }
 
     .main-Section-05{
@@ -1007,6 +1010,22 @@ top: 326px;
       margin: 0px;
     } 
 
+    .main-01-img-Container{
+        align-items: center;
+        margin-left: 30px;
+    }
+    .main-01-Text-container{
+       margin-left: 50px;
+    }
+    .navbar{
+       margin-left: 80px;
+    }
+
+    .brand-title-container{
+    max-width: 352px;
+    max-height: 335px;
+    margin-left: 45px
+    }
 
 
 
