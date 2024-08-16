@@ -824,7 +824,7 @@ top: 540px;
          
     }
     
-    }
+    
 
     .Container-1{
       
@@ -841,9 +841,7 @@ top: 540px;
       
        
     }
-    .navbar{
-            
-    }
+    
     .main-01-img-Container{
        display:flex;
        flex-direction: column;
@@ -855,19 +853,19 @@ top: 540px;
        
     
      position: absolute;
-     width: 160px;
-     height: 100px;
-     left: 270px;
+     width: 155px;
+     height: 90px;
+     left: 220px;
      top: 500px;
     }
 
     .Blur-Container-2{
       
      position: absolute;
-     width: 155.74px;
-     height: 72.58px;
+     width: 130px;
+     height: 70px;
      left: 50px;
-     top: 750px;
+     top: 720px;
     }
 
     .btn-Primary{
@@ -983,6 +981,9 @@ top: 326px;
     
   .main-01-title{
     font-size: 2rem;
+    width: 318px;
+    height: 38px;
+    
 
   }
   .main-01-description{
@@ -995,8 +996,9 @@ top: 326px;
     
     .main-Section-04{
 
-      width: 394px;
+      width: auto;
       height: 774px;
+      margin: 0px;
     }
 
     .main-Section-05{
@@ -1004,7 +1006,7 @@ top: 326px;
         max-height: 1188px;
     }
     .main-Section-02{
-      margin: 0px;
+      
 
       max-width: 353px;
       height: 600px;
@@ -1017,13 +1019,21 @@ top: 326px;
 
     .main-01-img-Container{
         align-items: center;
+        width: 338px;
+        height: 1216px;
+        margin-left: 20px;
+        margin-right: 20px;
       
     }
     .main-01-Text-container{
-       
+       margin-left: 38px;
+       margin-right: 37px;
+       align-items: center;
     }
     .navbar{
-       margin-left: 20px
+       margin-left: 20px;
+       margin-right: 20px;
+       
     }
 
     .brand-title-container{
@@ -1036,6 +1046,7 @@ top: 326px;
     /* Frame 27 */
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 66px;
 
 width: 353px;
 height: 620px
@@ -1062,10 +1073,96 @@ top: 5px;
     margin-left: 30px;
 
   }
-  
+  .Section-04-text-containter{
+    width: 353px;
+    height: 124px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+
+  .Section-04-text-containter h4{
+    font-size: 2rem;
+    width: 236px;
+    height: 38px;
+
      
+
+  }
+  .Section-04-text-containter p{
+     width: 353px;
+     height: 72px;
+  }
+  table caption{
+      font-size: 1rem;
+      margin-top: 34px;
+      margin-bottom: 23px;
+      
+      text-align: left;
+  }
+     table{
+       margin-left: 20px;
+     }
+ 
+  .from-Container-title h4{
+     font-size: 1rem;
+     width: 151px;
+     height: 19px;
+  }
+  .from-Container-title{
+     width: 354px;
+     height: 70px;
+     margin-left: 20px;
+  }
+
+.from-Container-title p{
+   width: 346px;
+   height: 72px;
+}
+
+.from-Container{
+   width: 354px;
+   height: 370px;
+}
+form{
+  margin-left: 20px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
   
-    
+}
+  .ex{
+     align-items: center;
+     
+     width: 105px;
+     height: 16px;
+  }
+.SR{
+   width: 298px;
+   margin-top: 7px;
+   margin-left: 20px;
+}
+
+.BMI-Calculator-Container{
+   margin-left: 0px;
+}
+.btn-t{
+   margin-left: 20px;
+   margin-top: 20px;
+}
+.main-Section-04{
+    width: 394px;
+    height: 720px;
+}
+
+
+
+
+
+
+}
+
+
+
 
 
 /* medium device realted styles */
